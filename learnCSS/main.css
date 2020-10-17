@@ -1,0 +1,31 @@
+body {
+    background-color: #cc99ff;
+}
+
+h1 {
+    color: #fff000;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+h2 {
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.container {
+    background: linear-gradient(to left ,#00ccff,#b3f0ff);
+    box-shadow: 3px 5px 3px black;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: auto;
+    
+}
+
+
+#circle {
+    color: darkred;
+    font-size: 40px;
+}
