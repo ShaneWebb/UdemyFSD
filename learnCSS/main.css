@@ -4,31 +4,6 @@ body {
     background-size: cover;
 }
 
-.container {
-    background: linear-gradient(to left ,#00ccff,#b3f0ff);
-    box-shadow: 3px 5px 3px black;
-}
-
-.borderImg {
-    border: 5px dashed red;   
-}
-
-.container h1 {
-    color: red;
-}
-
-#foo {
-    color:orange;
-}
-
-[id="foo"] {
-    color:red;
-}
-
-div git h1 {
-    color: green;
-}
-
 h1, h2, h3 {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
@@ -36,6 +11,9 @@ h1, h2, h3 {
     font-family: sans-serif;
 }
 
+.borderImg {
+    border: 5px dashed red;   
+}
 
 ul li {
     color:white;
