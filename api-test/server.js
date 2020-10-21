@@ -1,5 +1,9 @@
 var express = require('express');
 var app = express();
+var bodyparser = require("body-parser");
+
+app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({extended:false}));
 
 var ingredients = [
     {
@@ -21,12 +25,8 @@ var ingredients = [
 ];
 
 app.get("/", function(request, response) {
-        response.send("My first API.");
+        response.send(ingredients);
 });
-
-app.get("/funions", function(req, res) {
-    res.send("Give me some funions!");
-})
 
 app.listen(3000, function() {
     console.log("First API running on port 3000!");
